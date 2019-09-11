@@ -78,15 +78,3 @@ $(document).ready(function () {
     }
 
 });
-
-//Assign Random Number to Gems/Goal Number
-
-//Display Random Number
-
-//Display Gem Number
-
-//Check if Total Numbers = Goal Number
-
-//Check if Win/Loss
-
-//Restart Game (Run Setup)

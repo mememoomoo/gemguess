@@ -1,0 +1,38 @@
+/*Global*/
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'Modak', cursive;
+    font-size: 300%;
+    background: -webkit-linear-gradient(#D4145A, #FBB03B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 125%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D4145A;
+}
