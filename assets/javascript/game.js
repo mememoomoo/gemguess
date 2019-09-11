@@ -63,24 +63,13 @@ $(document).ready(function () {
     //Reset Game
 
     function reset() {
-        $('#gemOne').empty();
-        $('#gemTwo').empty();
-        $('#gemThree').empty();
-        $('#gemFour').empty();
 
-        var goalNumber = Math.floor(Math.random() * 101 + 19);
-        var gemOne = Math.floor(Math.random() * 11 + 1);
-        var gemTwo = Math.floor(Math.random() * 11 + 1);
-        var gemThree = Math.floor(Math.random() * 11 + 1);
-        var gemFour = Math.floor(Math.random() * 11 + 1);
-
-        console.log(goalNumber);
-        console.log(gemOne);
-        console.log(gemTwo);
-        console.log(gemThree);
-        console.log(gemFour);
-
-        var gemTotal = 0;
+        goalNumber = Math.floor(Math.random() * 101 + 19);
+        gemOne = Math.floor(Math.random() * 11 + 1);
+        gemTwo = Math.floor(Math.random() * 11 + 1);
+        gemThree = Math.floor(Math.random() * 11 + 1);
+        gemFour = Math.floor(Math.random() * 11 + 1);
+        gemTotal = 0;
 
         $("#userScore").text("Score: " + gemTotal);
         $("#wins").text("Wins: " + wins);
