@@ -52,10 +52,12 @@ $(document).ready(function () {
         if (gemTotal === goalNumber) {
             wins++;
             $("#wins").text("Wins: " + wins);
+            alert("Winner!");
             reset();
         } else if (gemTotal > goalNumber) {
             losses++;
             $('#losses').text('Losses: ' + losses);
+            alert("Loser!");
             reset();
         }
     }
