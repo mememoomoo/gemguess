@@ -77,6 +77,9 @@ $(document).ready(function () {
         $("#wins").text("Wins: " + wins);
         $("#losses").text("Losses: " + losses);
         $("#goalNumber").text("Goal: " + goalNumber);
+        setTimeout(function(){
+            $("#winnerLoser").empty("");
+        }, 3000);
     }
 
 });
